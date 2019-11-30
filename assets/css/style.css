@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+
+
+main {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+   
+}
+
+main h1 {
+    font-size: 60px;
+}
+.text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    /* top: -10px; */
+    width: 50%;
+    height: 100%;
+}
+
+.text-box h1 a{
+    display: block;
+    margin-top: 100px;
+    color: black;
+    font-family: cursive;
+}
+#message {
+    margin-left: 50px;
+    width: 55%;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 38px;
+}
+#message a {
+    color: green;
+}
+
+#me {
+    position: relative;
+    width: 25%;
+    top: 170px;
+    left: 65%;
+    border-radius: 100%;
+}
+
+.img-box {
+    position: relative;
+    width: 40%;
+    left: 10%;
+  
+    height: 100%;
+}
+
+#izena  {
+    position: absolute;
+    display: none;
+    border-radius: 0;
+
+}
+#sea {
+    width: 40%;
+    position: absolute;
+    /* left:400px; */
+    left: 65%;
+    top: 320px;
+    display: none;
+
+}
+#hibiscus {
+    position: absolute;
+    width: 50%;
+    top: -30px;
+   left: -20%;
+   display: none;
+
+}
+#aerial {
+    position: absolute;
+    width: 50%;
+    top: 300px;
+    left: -20%;
+    display: none;
+
+}
+#yuhi {
+    position: absolute;
+    width: 50%;
+    bottom: 450px;
+    right: -10%;
+    display: none;
+}
+
+main img {
+    width: 100%;
+}
+.img-box img {
+    margin-top: 100px;
+    border-radius: 100%;
+}
+footer {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: rgba(255,255,255,0.5); */
+}
+footer p {
+    font-size: 20px;
+    /* margin-left: 200px; */
+}
+
+
