@@ -1,9 +1,9 @@
 // console.log(123);
 
-$(function () {
+$(function() {
     // $('#izena').hide();
-    setInterval(function () {
-        $('#izena').fadeIn(3000).delay(15000).fadeOut(3000).delay(15000);
+    setInterval(function() {
+        $('#izena').fadeIn(3000).delay(9000).fadeOut(3000).delay(4000);
         $('#sea').delay(2500).fadeIn(3000).delay(7000).fadeOut(3000).delay(3500);
         $('#hibiscus').delay(3500).fadeIn(3000).delay(7000).fadeOut(3000).delay(4500);
         $('#aerial').delay(4500).fadeIn(3000).delay(7000).fadeOut(3000).delay(5500);
@@ -17,5 +17,3 @@ $(function () {
 
 
 });
-
-

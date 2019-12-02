@@ -1,19 +1,16 @@
 @charset "UTF-8";
-
-
-
 main {
     height: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-   
 }
 
 main h1 {
     font-size: 60px;
 }
+
 .text-box {
     display: flex;
     flex-direction: column;
@@ -24,19 +21,30 @@ main h1 {
     height: 100%;
 }
 
-.text-box h1 a{
+.text-box h1 a {
+    margin: 0 auto;
     display: block;
     margin-top: 100px;
     color: black;
     font-family: cursive;
+    background-color: white;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #message {
     margin-left: 50px;
     width: 55%;
     font-size: 17px;
     font-weight: bold;
     line-height: 38px;
+    background-color: rgba(253, 253, 253, 0.5);
+    border-radius: 6%;
 }
+
 #message a {
     color: green;
 }
@@ -53,16 +61,18 @@ main h1 {
     position: relative;
     width: 40%;
     left: 10%;
-  
     height: 100%;
 }
 
-#izena  {
+#izena {
+    width: 45%;
     position: absolute;
+    left: 20%;
+    top: 100px;
     display: none;
-    border-radius: 0;
-
+    border-radius: 100%;
 }
+
 #sea {
     width: 40%;
     position: absolute;
@@ -70,24 +80,24 @@ main h1 {
     left: 65%;
     top: 320px;
     display: none;
-
 }
+
 #hibiscus {
     position: absolute;
     width: 50%;
     top: -30px;
-   left: -20%;
-   display: none;
-
+    left: -20%;
+    display: none;
 }
+
 #aerial {
     position: absolute;
     width: 50%;
     top: 300px;
     left: -20%;
     display: none;
-
 }
+
 #yuhi {
     position: absolute;
     width: 50%;
@@ -99,10 +109,12 @@ main h1 {
 main img {
     width: 100%;
 }
+
 .img-box img {
     margin-top: 100px;
     border-radius: 100%;
 }
+
 footer {
     height: 35px;
     display: flex;
@@ -110,9 +122,8 @@ footer {
     align-items: center;
     /* background: rgba(255,255,255,0.5); */
 }
+
 footer p {
     font-size: 20px;
     /* margin-left: 200px; */
 }
-
-

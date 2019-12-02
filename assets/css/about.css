@@ -1,0 +1,124 @@
+* {
+    text-decoration: none;
+}
+
+
+/* プロフィール画面 */
+
+.container-wrapper1 {
+    background-image: url("../img/computer-820281_1920.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.85);
+}
+
+.container-wrapper1 h2 {
+    font-size: 40px;
+    margin: 30px 60px;
+}
+
+.container-wrapper1 main {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.left-text {
+    font-size: 20px;
+    line-height: 35px;
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-text img {
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 80%;
+}
+
+.right-text {
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-text h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.right-text dl {
+    font-size: 17px;
+}
+
+.right-text dt {
+    margin-top: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.right-text dd {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+
+/* プロフィールここまで */
+
+
+/* 繋ぎスクロール */
+
+.space {
+    height: 30vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space h2 {
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 50px;
+    border-bottom: 6px solid gray;
+}
+
+
+/* 繋ぎスクロールここまで */
+
+
+/* about */
+
+.container-wrapper2 {
+    background-image: url("../img/rainbow-4468783_1920.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(252, 252, 252, 0.5);
+}
+
+
+/* aboutここまで*/
