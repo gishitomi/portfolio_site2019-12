@@ -14,7 +14,7 @@
 <body>
     <div class="container-wrapper1">
         <div class="container">
-          <?php include('header.php'); ?>
+            <?php include('header.php'); ?>
             <h2>~Introduction~</h2>
             <main>
                 <div class="left-text">
