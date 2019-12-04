@@ -14,16 +14,7 @@
 <body>
     <div class="container-wrapper1">
         <div class="container">
-            <header>
-                <div class="header-left">
-                    <h1><a href="./index.html">Shota Gishitomi</a></h1>
-                </div>
-                <nav>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
-                </nav>
-            </header>
+          <?php include('header.php'); ?>
             <h2>~Introduction~</h2>
             <main>
                 <div class="left-text">
