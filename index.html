@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/button.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -22,7 +23,7 @@
                 <nav>
                     <li><a href="./about.html">About</a></li>
                     <li><a href="./portfolio.html">Portfolio</a></li>
-                    <li><a href="./contact/index.php">Contact</a></li>
+                    <li><a href="sample.php">Contact</a></li>
                 </nav>
             </header>
             <main>
@@ -39,8 +40,34 @@
                     <p id="message">初めまして！宜志富紹太と申します。<br>私は現在大学に通いつつプログラミング、<br>Web制作等の勉強をしています。<br> 質問やご意見などございましたら
                         <br><a href="">コンタクトフォーム</a>へどうぞ！
                     </p>
-                    <h1><a href="./portfolio.html">Shota's Portfolio</a></h1>
-                    <!-- <p>大学生がつくるポートフォリオ </p> -->
+                    <!-- <h1><a href="./portfolio.html">Shota's Portfolio</a></h1> -->
+                    <section>
+                        <div class="button">
+                            <a href="./portfolio.html" class="twitter-follow-button" data-show-count="false" data-size="large">Shota's Portfolio</a>
+                            <script>
+                                ! function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (!d.getElementById(id)) {
+                                        js = d.createElement(s);
+                                        js.id = id;
+                                        js.src = "//platform.twitter.com/widgets.js";
+                                        fjs.parentNode.insertBefore(js, fjs);
+                                    }
+                                }(document, "script", "twitter-wjs");
+                            </script>
+                        </div>
+                        <div class="cover">
+                            <div class="innie">
+
+                            </div>
+                            <div class="spine"></div>
+                            <div class="outie">
+                                <p>押して</p>
+                            </div>
+                        </div>
+                        <div class="shadow"></div>
+                    </section>
+
                 </div>
             </main>
             <footer>

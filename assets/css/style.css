@@ -21,10 +21,10 @@ main h1 {
     height: 100%;
 }
 
-.text-box h1 a {
+.text-box section {
     margin: 0 auto;
     display: block;
-    margin-top: 100px;
+    margin-top: 50px;
     color: black;
     font-family: cursive;
     background-color: white;
