@@ -15,7 +15,8 @@ main h1 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    position: relative;
+    justify-content: space-around;
+    /* position: relative; */
     /* top: -10px; */
     width: 50%;
     height: 100%;
@@ -24,37 +25,31 @@ main h1 {
 .text-box section {
     margin: 0 auto;
     display: block;
-    margin-top: 50px;
+    margin-bottom: 40px;
     color: black;
     font-family: cursive;
     background-color: white;
     width: 80%;
-    height: 100px;
+    height: 140px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5%;
 }
 
 #message {
-    margin-left: 50px;
-    width: 55%;
+    margin: 0 auto;
+    width: 75%;
     font-size: 17px;
     font-weight: bold;
-    line-height: 38px;
+    line-height: 40px;
     background-color: rgba(253, 253, 253, 0.5);
     border-radius: 6%;
+    margin-top: 80px;
 }
 
 #message a {
     color: green;
-}
-
-#me {
-    position: relative;
-    width: 25%;
-    top: 170px;
-    left: 65%;
-    border-radius: 100%;
 }
 
 .img-box {
@@ -127,3 +122,35 @@ footer p {
     font-size: 20px;
     /* margin-left: 200px; */
 }
+
+
+/* ボタンの挙動 */
+
+.button a {
+    color: black;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.cover {
+    font-size: 30px;
+}
+
+.outie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outie i {
+    font-size: 35px;
+    margin-right: 10px;
+}
+
+.outie i:last-child {
+    margin-right: 0;
+}
+
+
+/* ボタンの挙動終了 */

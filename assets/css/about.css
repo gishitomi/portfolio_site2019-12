@@ -27,6 +27,7 @@
 
 .container-wrapper1 main {
     display: flex;
+    /* flex-direction: row-reverse; */
     width: 80%;
     margin: 0 auto;
 }
@@ -39,13 +40,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.left-text p {
+    font-size: 20px;
+}
+
+.img-box {
+    width: 40%;
+    margin-bottom: 150px;
 }
 
 .left-text img {
-    border-radius: 10px;
-    margin-top: 70px;
-    width: 80%;
+    border-radius: 100%;
+    width: 100%;
+}
+
+.icon-box {
+    font-size: 40px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.icon-box i {
+    margin-right: 25px;
 }
 
 .right-text {
@@ -75,6 +94,10 @@
 .right-text dd {
     margin-top: 40px;
     margin-left: 200px;
+}
+
+.right-text dd:last-child {
+    line-height: 30px;
 }
 
 
