@@ -62,13 +62,13 @@ svg {
 }
 
 .innie {
-    background-color: rgb(49, 52, 194);
+    background-color: rgb(0, 87, 0);
     text-shadow: 0 -2px 4px rgba(0, 0, 0, .2);
 }
 
 .spine {
     top: .25rem;
-    background: #20C7F3;
+    background-color: rgb(0, 87, 0);
     height: .25rem;
     transform: rotateX(90deg);
     transform-origin: center top;
@@ -88,7 +88,7 @@ svg {
 }
 
 .outie {
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 87, 0);
     transform: translateZ(.25rem);
     text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 }
@@ -114,15 +114,15 @@ section:hover .cover {
 }
 
 section:hover .innie {
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 87, 0);
 }
 
 section:hover .spine {
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 87, 0);
 }
 
 section:hover .outie {
-    background-color: rgb(0, 0, 102);
+    background-color: rgb(0, 87, 0);
     color: rgba(255, 255, 255, 0);
 }
 

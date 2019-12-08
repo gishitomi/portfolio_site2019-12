@@ -17,23 +17,13 @@
 </head>
 
 <body>
-    <div class="start">
+    <!-- <div class="start">
         <h1>Shota Gishitomi</h1>
-    </div>
+    </div> -->
     <div class="container-wrapper">
         <div class="container">
             <!-- php用 headerファイル -->
-            <!-- <?php include('header.php'); ?> -->
-            <header>
-                <div class="header-left">
-                    <h1><a href="./index.php">Shota Gishitomi</a></h1>
-                </div>
-                <nav>
-                    <li class="hvr-underline-from-center"><a href="./about.html">About</a></li>
-                    <li class="hvr-underline-from-center"><a href="./portfolio.html">Portfolio</a></li>
-                    <li class="hvr-underline-from-center"><a href="./contact/index.php">Contact</a></li>
-                </nav>
-            </header>
+            <?php include('header.php'); ?>
             <main>
                 <!-- <div class="img-box">
                     <img src="./assets/img/伊是名.jpeg" id="izena" alt="">

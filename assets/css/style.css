@@ -1,4 +1,35 @@
 @charset "UTF-8";
+
+/* サイトを開いた時の処理 */
+
+.start {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    height: 100%;
+    width: 100%;
+}
+
+.start h1 {
+    /* background-color: red; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+    width: 100%;
+}
+
+
+/* サイトを開いた時の処理終了 */
+
 main {
     height: 80%;
     display: flex;

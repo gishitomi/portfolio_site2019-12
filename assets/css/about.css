@@ -3,6 +3,39 @@
 }
 
 
+/* サイトを始めて開く時 */
+
+.start {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    height: 100%;
+    width: 100%;
+}
+
+.start textarea {
+    /* background-color: red; */
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+    width: 50%;
+    border: none;
+    resize: none;
+}
+
+
+/* サイトを始めて開く時終了 */
+
+
 /* プロフィール画面 */
 
 .container-wrapper1 {
@@ -23,6 +56,7 @@
 .container-wrapper1 h2 {
     font-size: 40px;
     margin: 30px 60px;
+    margin-bottom: 10px;
 }
 
 .container-wrapper1 main {
@@ -34,41 +68,64 @@
 
 .left-text {
     font-size: 20px;
-    line-height: 35px;
+    line-height: 20px;
     width: 50%;
     height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .left-text p {
-    font-size: 20px;
+    font-size: 15px;
+    width: 80%;
+    margin-bottom: 60px;
 }
 
 .img-box {
-    width: 40%;
-    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    /* margin-bottom: 150px; */
 }
 
 .left-text img {
+    /* display: block; */
     border-radius: 100%;
-    width: 100%;
+    width: 40%;
 }
 
 .icon-box {
+    display: flex;
+    flex-direction: column;
     font-size: 40px;
     color: gray;
     margin-top: 10px;
 }
 
+.icon-box a {
+    width: 0;
+}
+
 .icon-box i {
     margin-right: 25px;
+    margin-top: 20px;
+}
+
+.icon-box i::before {
+    width: 100%;
+}
+
+.icon-box i {
+    color: gray;
+}
+
+.icon-box i:hover {
+    color: black;
 }
 
 .right-text {
-    margin-top: 30px;
     width: 50%;
     display: flex;
     flex-direction: column;
