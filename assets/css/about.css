@@ -93,7 +93,8 @@
 .left-text img {
     /* display: block; */
     border-radius: 100%;
-    width: 40%;
+    width: 50%;
+    height: 100%;
 }
 
 .icon-box {
@@ -113,8 +114,11 @@
     margin-top: 20px;
 }
 
-.icon-box i::before {
-    width: 100%;
+.icon-box p {
+    color: gray;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 900;
 }
 
 .icon-box i {
@@ -122,6 +126,10 @@
 }
 
 .icon-box i:hover {
+    color: black;
+}
+
+.icon-box p:hover {
     color: black;
 }
 
