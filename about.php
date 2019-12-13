@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/hover.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -21,16 +22,6 @@
             <div class="container">
                 <!-- php用 headerファイル -->
                 <?php include('header.php'); ?>
-                <header>
-                    <div class="header-left">
-                        <h1><a href="./index.php">Shota Gishitomi</a></h1>
-                    </div>
-                    <nav>
-                        <li><a href="./about.php">About</a></li>
-                        <li><a href="./portfolio.php">Portfolio</a></li>
-                        <li><a href="./contact/index.php">Contact</a></li>
-                    </nav>
-                </header>
                 <h2>~About me~</h2>
                 <main>
                     <div class="left-text">

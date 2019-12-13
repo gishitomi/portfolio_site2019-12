@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/hover.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
 </head>
 
@@ -93,8 +93,8 @@
         <ul class="page">
             <li><a href="#"><i class="fas fa-angle-double-left"></i></a></li>
             <li><a href="#">1</a></li>
-            <li><a href="./portfolio-page2.html">2</a></li>
-            <li><a href="./portfolio-page2.html"><i class="fas fa-angle-double-right"></i></a></li>
+            <li><a href="./portfolio-page2.php">2</a></li>
+            <li><a href="./portfolio-page2.php"><i class="fas fa-angle-double-right"></i></a></li>
 
         </ul>
     </div>

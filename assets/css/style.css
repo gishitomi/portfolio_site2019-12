@@ -571,4 +571,106 @@ header nav a {
 .index .outie i:last-child {
   margin-right: 0; }
 
+#portfolio {
+  /* サイトを始めて開く時 */
+  /* サイトを始めて開く時終了 */
+  /* ページ */
+  /* ページ終了 */ }
+
+#portfolio a {
+  color: black; }
+
+#portfolio body {
+  background-color: whitesmoke; }
+
+#portfolio header {
+  background: rgba(255, 255, 255, 0.2); }
+
+#portfolio .start-p {
+  background: #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9000;
+  height: 100%;
+  width: 100%; }
+
+#portfolio .start-p textarea {
+  /* background-color: red; */
+  margin: 0 auto;
+  text-align: center;
+  font-size: 80px;
+  font-family: cursive;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+  width: 70%;
+  border: none;
+  resize: none; }
+
+#portfolio section {
+  margin-bottom: 100px; }
+
+#portfolio .topic {
+  font-size: 40px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 90px;
+  margin-bottom: 50px; }
+
+#portfolio main {
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  height: 3500px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: justify;
+          justify-content: space-between; }
+
+#portfolio .img-box img {
+  width: 100%; }
+
+#portfolio .text {
+  margin-left: 10px; }
+
+#portfolio .text h5, #portfolio .text p {
+  font-size: 20px; }
+
+#portfolio .text p a {
+  color: navy;
+  border-bottom: 2px solid navy; }
+
+#portfolio .page {
+  display: -webkit-box;
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-pack: center;
+          justify-content: center;
+  /* height: 100px; */
+  /* margin-bottom: 50px; */ }
+
+#portfolio .page li {
+  border: 1px solid gray;
+  font-size: 30px;
+  padding: 5px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+#portfolio .page a {
+  color: gray; }
+
 /*# sourceMappingURL=style.css.map */
