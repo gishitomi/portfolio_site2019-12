@@ -17,7 +17,7 @@
         <div class="container-wrapper">
             <div class="container">
                 <!-- php用 headerファイル -->
-                <?php include('header-skip.php'); ?>
+                <?php include('header.php'); ?>
                 <main>
                     <div class="text-box">
                         <p id="message">初めまして！宜志富紹太と申します。<br>私は現在大学に通いつつプログラミング、<br>Web制作等の勉強をしています。<br> 質問やご意見などございましたら

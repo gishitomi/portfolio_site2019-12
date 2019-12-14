@@ -21,7 +21,7 @@
         <div class="container-wrapper1">
             <div class="container">
                 <!-- php用 headerファイル -->
-                <?php include('header.php'); ?>
+                <?php include('header-skip.php'); ?>
                 <h2>~About me~</h2>
                 <main>
                     <div class="left-text">
