@@ -5,6 +5,6 @@
     <nav>
         <li class="hvr-underline-from-center"><a href="./about-link.php">About</a></li>
         <li class="hvr-underline-from-center"><a href="./portfolio.php">Portfolio</a></li>
-        <li class="hvr-underline-from-center"><a href="./contact/index.php">Contact</a></li>
+        <li class="hvr-underline-from-center"><a href="./contact_form/index.php">Contact</a></li>
     </nav>
 </header>
