@@ -29,9 +29,6 @@ $stmt->execute([$nickname, $email, $content]);
             <div class="container">
                 <h1>無事送信されました。</h1>
                 <h1>お問い合わせありがとうございます！</h1>
-                <!-- <p><?php echo h($nickname); ?></p>
-                <p><?php echo h($email); ?></p>
-                <p><?php echo h($content); ?></p> -->
             </div>
         </div>
     </div>
