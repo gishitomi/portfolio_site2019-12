@@ -22,7 +22,6 @@ $stmt->execute([$nickname, $email, $content]);
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/thanks.css">
-
 </head>
 
 <body>
