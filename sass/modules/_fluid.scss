@@ -1,0 +1,109 @@
+.index {
+    // 流体の幅・高さを決め、変数へ代入
+    $fluid-width: 680px;
+    $fluid-height: 680px;
+    // 流体のカラーも変数へ代入
+    $fluid-color: rgb(66, 172, 66);
+    // 流体アニメーションさせるclass
+    .fluid {
+        width: $fluid-width;
+        height: $fluid-height;
+        background: rgba( $fluid-color, 1);
+    }
+    // 回転アニメーション（360度回転させる）
+    .rotate {
+        animation: rotate 30s ease 0s infinite normal both;
+        @keyframes rotate {
+            0% {
+                transform: rotate( 0);
+            }
+            100% {
+                transform: rotate( 360deg);
+            }
+        }
+    }
+    // 伸縮アニメーション（100%→90%くらいのあたりで伸縮させる）
+    .stretch {
+        width: $fluid-width;
+        height: $fluid-height;
+        animation: stretch 1s ease 0s infinite alternate both;
+        @keyframes stretch {
+            0% {
+                transform: scale( 1, 1);
+            }
+            100% {
+                transform: scale( .9, .9);
+            }
+        }
+    }
+    // 透過（不透明度変更）処理
+    .opacity {
+        background: rgba( $fluid-color, .75);
+    }
+    .fluid-box2 {
+        .rotate {
+            animation: rotate 10s ease 0s infinite normal both;
+            @keyframes rotate {
+                0% {
+                    transform: rotate( 0);
+                }
+                100% {
+                    transform: rotate( 360deg);
+                }
+            }
+        }
+        .strech {
+            width: $fluid-width;
+            height: $fluid-height;
+            animation: stretch 4s ease 0s infinite alternate both;
+            @keyframes stretch {
+                0% {
+                    transform: scale( 1, 1);
+                }
+                100% {
+                    transform: scale( .9, .9);
+                }
+            }
+        }
+        $fluid-color: rgb(66, 156, 172);
+        // 流体アニメーションさせるclass
+        .fluid {
+            width: $fluid-width;
+            height: $fluid-height;
+            background: rgba( $fluid-color, 1);
+        }
+    }
+    .fluid-box3 {
+        .rotate {
+            animation: rotate 40s ease 0s infinite normal both;
+            @keyframes rotate {
+                0% {
+                    transform: rotate( 0);
+                }
+                100% {
+                    transform: rotate( 360deg);
+                }
+            }
+        }
+        .strech {
+            width: $fluid-width;
+            height: $fluid-height;
+            animation: stretch 8s ease 0s infinite alternate both;
+            @keyframes stretch {
+                0% {
+                    transform: scale( 1, 1);
+                }
+                100% {
+                    transform: scale( .9, .9);
+                }
+            }
+        }
+        $fluid-color: rgb(172, 66, 66);
+        // 流体アニメーションさせるclass
+        .fluid {
+            width: $fluid-width;
+            height: $fluid-height;
+            background: rgba( $fluid-color, 1);
+        }
+    }
+}

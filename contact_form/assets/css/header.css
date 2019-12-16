@@ -4,18 +4,25 @@
 }
 
 header {
-    text-align: start;
-    height: 15%;
+    font-weight: 900;
+    height: 120px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.5);
-    /* position: absolute; */
+    background-color: white;
     font-family: cursive;
+    display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
     font-size: 50px;
-    padding: 20px 50px;
     font-family: cursive;
+    font-weight: 800;
+}
+
+header .header-left {
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
 }
 
 header a {
@@ -24,7 +31,7 @@ header a {
 
 header nav {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 header nav a {

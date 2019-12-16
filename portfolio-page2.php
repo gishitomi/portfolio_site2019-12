@@ -44,10 +44,10 @@
 
         </main>
         <ul class="page">
-            <li><a href="./portfolio-link.php"><i class="fas fa-angle-double-left"></i></a></li>
-            <li><a href="./portfolio-link.php">1</a></li>
-            <li>2</li>
-            <li><i class="fas fa-angle-double-right"></i></li>
+            <li><a href="./portfolio.php"><i class="fas fa-angle-double-left"></i></a></li>
+            <li><a href="./portfolio.php">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
 
         </ul>
     </div>
