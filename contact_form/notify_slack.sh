@@ -5,10 +5,10 @@
 
 curl -X POST -H 'Content-type: application/json' --data '{
     "text": 
-    '
+    "
     [問い合わせがきました]
     [名前]$1
     [メールアドレス]$2
     [コメント]$3
-    '
+    "
 }' $4
