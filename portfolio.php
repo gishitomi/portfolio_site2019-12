@@ -38,8 +38,8 @@
                     <br>
                     <p>トップ画面をパララックスさせ、レイアウトはCSS Flexboxを使用。
                         <br><br> GitHub : <a href="https://github.com/gishitomi/about_JavaScript">https://github.com/gishitomi/about_JavaScript</a>
-                        <br>
-                        <a href="https://about-javascript.netlify.com/">https://about-javascript.netlify.com/</a>
+                        <br><br>
+                        URL : <a href="https://about-javascript.netlify.com/">https://about-javascript.netlify.com/</a>
                     </p>
                 </div>
             </section>
@@ -56,8 +56,8 @@
                     <br>
                     <p>JavaScript(主にjquery)の学習、さらにプラグインの使い方を学ぶ目的で作成したサイト。
                         <br><br> GitHub : <a href="https://github.com/gishitomi/JS-11-11">https://github.com/gishitomi/JS-11-11</a>
-                        <br>
-                        <a href="https://okinawa-dialy.netlify.com/">https://okinawa-dialy.netlify.com/</a>
+                        <br><br>
+                        URL : <a href="https://okinawa-dialy.netlify.com/">https://okinawa-dialy.netlify.com/</a>
                     </p>
                 </div>
             </section>
@@ -74,8 +74,8 @@
                     <br>
                     <p>Javascriptの学習の目的で始めた1日目の課題。<br> 参考サイト : <a href="https://javascript30.com/">https://javascript30.com/</a>
                         <br><br>GitHub : <a href="https://github.com/gishitomi/30days-01day-pianoapp">https://github.com/gishitomi/30days-01day-pianoapp</a>
-                        <br>
-                        <a href="https://01day-piano-app.netlify.com/">https://01day-piano-app.netlify.com/</a>
+                        <br><br>
+                        URL : <a href="https://01day-piano-app.netlify.com/">https://01day-piano-app.netlify.com/</a>
                     </p>
                 </div>
             </section>
@@ -92,8 +92,8 @@
                     <br>
                     <p>プログラミングスクールで2人1組で行ったチーム開発により作成したサイト。<br>コード編集のやりとりはGitHubを使用して行った。Topページと駐車場ページを担当。
                         <br><br>GitHub : <a href="https://github.com/koji1218ai/teamAandS">https://github.com/koji1218ai/teamAandS</a>
-                        <br>
-                        <a href="https://nifty-jepsen-3dc9da.netlify.com/">https://nifty-jepsen-3dc9da.netlify.com/</a>
+                        <br><br>
+                        URL : <a href="https://nifty-jepsen-3dc9da.netlify.com/">https://nifty-jepsen-3dc9da.netlify.com/</a>
                     </p>
                 </div>
             </section>

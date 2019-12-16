@@ -35,8 +35,8 @@
                     <br>
                     <p>プログラミングスクールにて4人グループで行ったチーム開発。コード編集のやりとりはGitHubを使用した。Sassを学習することと、チーム内開発の練習の目的でこのサイトを作成。
                         <br><br>GitHub : <a href="https://github.com/naok-i-n-g/naoki">https://github.com/naok-i-n-g/naoki</a>
-                        <br>
-                        <a href="https://elated-villani-576f93.netlify.com/">https://elated-villani-576f93.netlify.com/</a>
+                        <br><br>
+                        URL : <a href="https://elated-villani-576f93.netlify.com/">https://elated-villani-576f93.netlify.com/</a>
                     </p>
                 </div>
             </section>
