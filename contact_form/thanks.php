@@ -2,7 +2,6 @@
 require_once('function.php');
 require_once('dbconnect.php');
 $url = 'https://hooks.slack.com/services/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';
-shell_exec("sh notify_slack.sh $nickname $email $content $url");
 
 if ($_SERVER["REQUEST_METHOD"] !== "POST") {
     header('Location: index.php');
@@ -13,6 +12,7 @@ $content = $_POST['content'];
 
 $stmt = $dbh->prepare('INSERT INTO contact_form (nickname, email, content) VALUES (?, ?, ?)');
 $stmt->execute([$nickname, $email, $content]);
+shell_exec("sh notify_slack.sh $nickname $email $content $url");
 ?>
 <!DOCTYPE html>
 <html lang="ja">
