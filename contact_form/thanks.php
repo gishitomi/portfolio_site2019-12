@@ -11,6 +11,7 @@ $content = $_POST['content'];
 
 $stmt = $dbh->prepare('INSERT INTO contact_form (nickname, email, content) VALUES (?, ?, ?)');
 $stmt->execute([$nickname, $email, $content]);
+shell_exec("sh notify_slack.sh");
 ?>
 <!DOCTYPE html>
 <html lang="ja">
