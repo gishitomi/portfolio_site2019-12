@@ -98,8 +98,8 @@ table {
 .index .fluid-box2 .strech {
   width: 680px;
   height: 680px;
-  -webkit-animation: stretch 4s ease 0s infinite alternate both;
-          animation: stretch 4s ease 0s infinite alternate both; }
+  -webkit-animation: stretch 4s ease 3s infinite alternate both;
+          animation: stretch 4s ease 3s infinite alternate both; }
 
 @keyframes stretch {
   0% {
@@ -115,8 +115,8 @@ table {
   background: #429cac; }
 
 .index .fluid-box3 .rotate {
-  -webkit-animation: rotate 40s ease 0s infinite normal both;
-          animation: rotate 40s ease 0s infinite normal both; }
+  -webkit-animation: rotate 40s ease 10s infinite normal both;
+          animation: rotate 40s ease 10s infinite normal both; }
 
 @keyframes rotate {
   0% {
@@ -129,8 +129,8 @@ table {
 .index .fluid-box3 .strech {
   width: 680px;
   height: 680px;
-  -webkit-animation: stretch 8s ease 0s infinite alternate both;
-          animation: stretch 8s ease 0s infinite alternate both; }
+  -webkit-animation: stretch 8s ease 5s infinite alternate both;
+          animation: stretch 8s ease 5s infinite alternate both; }
 
 @keyframes stretch {
   0% {

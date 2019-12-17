@@ -55,7 +55,7 @@
         .strech {
             width: $fluid-width;
             height: $fluid-height;
-            animation: stretch 4s ease 0s infinite alternate both;
+            animation: stretch 4s ease 3s infinite alternate both;
             @keyframes stretch {
                 0% {
                     transform: scale( 1, 1);
@@ -75,7 +75,7 @@
     }
     .fluid-box3 {
         .rotate {
-            animation: rotate 40s ease 0s infinite normal both;
+            animation: rotate 40s ease 10s infinite normal both;
             @keyframes rotate {
                 0% {
                     transform: rotate( 0);
@@ -88,7 +88,7 @@
         .strech {
             width: $fluid-width;
             height: $fluid-height;
-            animation: stretch 8s ease 0s infinite alternate both;
+            animation: stretch 8s ease 5s infinite alternate both;
             @keyframes stretch {
                 0% {
                     transform: scale( 1, 1);
