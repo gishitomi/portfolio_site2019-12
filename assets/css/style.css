@@ -395,7 +395,7 @@ table {
   #about main .left-text .img-box .icon-box p {
     font-size: 20px; } }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   #about main .right-text dl dt, #about main .right-text dl dd {
     font-size: 11px; }
   #about main .right-text dl dd {
@@ -981,7 +981,7 @@ header nav a {
     color: black;
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 0.5px 0px #0f0f0f, 0px 2px 0px #1b1c1f, 0px 1.5px 0px #212122; } }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   .index .container-wrapper {
     background-position: -510px 40px; } }
 
@@ -1107,7 +1107,7 @@ header nav a {
   #portfolio .text p {
     font-size: 12px; } }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 350px) {
   #portfolio main {
     height: 1600px; }
   #portfolio .text h5 {
