@@ -459,7 +459,7 @@ table {
 .index .container-wrapper {
   background-size: cover;
   background-position: bottom;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   box-sizing: border-box; }
 
@@ -789,7 +789,7 @@ header nav a {
   border-radius: 100%; }
 
 .index footer {
-  height: 35px;
+  height: 42px;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
