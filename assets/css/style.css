@@ -395,6 +395,12 @@ table {
   #about main .left-text .img-box .icon-box p {
     font-size: 20px; } }
 
+@media only screen and (max-width: 330px) {
+  #about main .right-text dl dt, #about main .right-text dl dd {
+    font-size: 11px; }
+  #about main .right-text dl dd {
+    margin-left: 100px; } }
+
 .index section, .index section div {
   /* See it in slo-mo, you can change this */
   -webkit-transition-duration: .6s;
@@ -958,7 +964,10 @@ header nav a {
     height: 70%; }
   .index main .text-box #message {
     font-size: 12px;
-    line-height: 25px; }
+    line-height: 25px;
+    padding: 50px 0; }
+  .index article {
+    margin-top: 40px; }
   .index article a {
     display: block;
     text-decoration: none;
@@ -971,6 +980,10 @@ header nav a {
     font-size: 20px;
     color: black;
     text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px 0.5px 0px #0f0f0f, 0px 2px 0px #1b1c1f, 0px 1.5px 0px #212122; } }
+
+@media only screen and (max-width: 330px) {
+  .index .container-wrapper {
+    background-position: -510px 40px; } }
 
 #portfolio {
   /* サイトを始めて開く時 */
@@ -1051,7 +1064,11 @@ header nav a {
 
 #portfolio .text p a {
   color: navy;
-  border-bottom: 2px solid navy; }
+  border-bottom: 1px solid navy; }
+
+#portfolio .text p a:hover {
+  color: purple;
+  border-bottom: 1px solid purple; }
 
 #portfolio .page {
   display: -webkit-box;
@@ -1073,5 +1090,29 @@ header nav a {
 
 #portfolio .page a {
   color: gray; }
+
+@media only screen and (max-width: 890px) {
+  #portfolio nav {
+    height: 400px; }
+  #portfolio main {
+    height: 2700px; } }
+
+@media only screen and (max-width: 375px) {
+  #portfolio main {
+    height: 1700px; }
+  #portfolio .topic {
+    font-size: 30px; }
+  #portfolio .text h5 {
+    font-size: 17px; }
+  #portfolio .text p {
+    font-size: 12px; } }
+
+@media only screen and (max-width: 330px) {
+  #portfolio main {
+    height: 1600px; }
+  #portfolio .text h5 {
+    font-size: 14px; }
+  #portfolio .text p {
+    font-size: 11px; } }
 
 /*# sourceMappingURL=style.css.map */

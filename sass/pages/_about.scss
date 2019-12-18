@@ -256,4 +256,19 @@
             }
         }
     }
+    @include media(iphone5) {
+        main {
+            .right-text {
+                dl {
+                    dt,
+                    dd {
+                        font-size: 11px;
+                    }
+                    dd {
+                        margin-left: 100px;
+                    }
+                }
+            }
+        }
+    }
 }

@@ -69,7 +69,11 @@
     }
     .text p a {
         color: navy;
-        border-bottom: 2px solid navy;
+        border-bottom: 1px solid navy;
+    }
+    .text p a:hover {
+        color: purple;
+        border-bottom: 1px solid purple;
     }
     /* ページ */
     .page {
@@ -92,4 +96,41 @@
         color: gray;
     }
     /* ページ終了 */
+    @include media(sp) {
+        nav {
+            height: 400px;
+        }
+        main {
+            height: 2700px;
+        }
+    }
+    @include media(iphone8) {
+        main {
+            height: 1700px;
+        }
+        .topic {
+            font-size: 30px;
+        }
+        .text {
+            h5 {
+                font-size: 17px;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+    @include media(iphone5) {
+        main {
+            height: 1600px;
+        }
+        .text {
+            h5 {
+                font-size: 14px;
+            }
+            p {
+                font-size: 11px;
+            }
+        }
+    }
 }

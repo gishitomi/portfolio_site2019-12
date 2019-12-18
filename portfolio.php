@@ -70,7 +70,7 @@
                     <br>
                     <p>使用言語 : HTML,CSS / Javascript</p>
                     <br>
-                    <p>Javascriptの学習の目的で始めた1日目の課題。<br> 参考サイト : <a href="https://javascript30.com/">https://javascript30.com/</a>
+                    <p>Javascriptの学習の目的で始めた1日目の課題。<br> <br>参考サイト : <a href="https://javascript30.com/">https://javascript30.com/</a>
                         <br><br>GitHub : <a href="https://github.com/gishitomi/30days-01day-pianoapp">https://github.com/gishitomi/30days-01day-pianoapp</a>
                         <br><br>
                         URL : <a href="https://01day-piano-app.netlify.com/">https://01day-piano-app.netlify.com/</a>
