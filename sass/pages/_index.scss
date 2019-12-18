@@ -160,6 +160,7 @@
         justify-content: center;
         align-items: center;
         /* background: rgba(255,255,255,0.5); */
+        background-color: white;
     }
     footer p {
         font-size: 20px;
@@ -189,4 +190,101 @@
         margin-right: 0;
     }
     /* ボタンの挙動終了 */
+    article a {
+        display: none;
+    }
+    @include media(sp) {
+        .container-wrapper {
+            background-image: url(../../assets/img/notebook-1280538_1920.jpg);
+            background-position: -341px 118px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.623);
+        }
+        .fluid-box,
+        .fluid-box2,
+        .fluid-box3 {
+            display: none;
+        }
+        main {
+            flex-direction: column;
+        }
+        .text-box,
+        section {
+            width: 80%;
+        }
+        section {
+            display: none;
+        }
+        #message {
+            width: 100%;
+        }
+        .cover {
+            display: none;
+        }
+        article {
+            margin-bottom: 100px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a {
+                display: block;
+                font-size: 30px;
+                text-decoration: none;
+                color: black;
+                border: 6px solid black;
+                padding: 10px 40px;
+            }
+            .btn-text-3d {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 37px;
+                color: black;
+                text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #0f0f0f, 0px 2px 0px #1b1c1f, 0px 3px 0px #212122;
+            }
+            .btn-text-3d:active {
+                top: 4px;
+                text-shadow: none;
+            }
+        }
+        .berger-menu {
+            a {
+                color: black;
+            }
+            a:active {
+                color: gray;
+            }
+        }
+    }
+    @include media(iphone8) {
+        .container-wrapper {
+            background-image: url(../../assets/img/notebook-1280538_1920.jpg);
+            background-position: -745px 40px;
+        }
+        main {
+            .text-box {
+                height: 70%;
+                #message {
+                    font-size: 12px;
+                    line-height: 25px;
+                }
+            }
+        }
+        article {
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                border: 3px solid black;
+                padding: 10px 40px;
+            }
+            .btn-text-3d {
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 20px;
+                color: black;
+                text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.32), 0px .5px 0px #0f0f0f, 0px 2px 0px #1b1c1f, 0px 1.5px 0px #212122;
+            }
+        }
+    }
 }

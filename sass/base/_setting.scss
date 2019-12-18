@@ -6,4 +6,4 @@ $main-color: #ddd;
 $accent-color: #f00;
 // フォントの設定-------------------------------
 // ブレイクポイントの設定-----------------------
-$breakpoints: ( sp: "only screen and (max-width: 767px)", tab: "only screen and (max-width: 768px)", pc: "only screen and (max-width: 1152px)", );
+$breakpoints: ( sp: "only screen and (max-width: 890px)", tab: "only screen and (max-width: 768px)", pc: "only screen and (max-width: 1152px)", iphone8: "only screen and (max-width: 365px)");
