@@ -70,7 +70,7 @@
     .left-text p {
         font-size: 15px;
         width: 80%;
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         line-height: 30px;
     }
     .img-box {
@@ -160,5 +160,100 @@
         position: absolute;
         left: 100%;
         top: -20%;
+    }
+    @include media(pc) {
+        .container {
+            overflow: auto;
+        }
+        .left-text p {
+            margin-bottom: 20px;
+        }
+    }
+    @include media(sp) {
+        .berger-menu {
+            height: 400px;
+        }
+        .container h2 {
+            display: none;
+        }
+        main {
+            flex-direction: column-reverse;
+            .left-text,
+            .right-text {
+                width: 100%;
+            }
+            .right-text h3 {
+                font-size: 35px;
+                width: 100%;
+                padding-top: 20px;
+                text-align: center;
+                border-bottom: 6px solid rgb(158, 6, 6);
+            }
+            .right-text dl {
+                font-size: 20px;
+            }
+            .right-text dt {
+                margin-top: 40px;
+                font-weight: bold;
+                float: left;
+            }
+            .right-text dd {
+                margin-top: 40px;
+                margin-left: 200px;
+            }
+            .right-text dd:last-child {
+                line-height: 30px;
+                font-size: 13px;
+            }
+            .left-text h5 {
+                font-size: 35px;
+                width: 100%;
+                margin-top: 60px;
+                padding-bottom: 10px;
+                text-align: center;
+                border-bottom: 6px solid rgb(158, 6, 6);
+                margin-bottom: 50px;
+            }
+        }
+    }
+    @include media(iphone8) {
+        main {
+            .right-text {
+                dl {
+                    font-size: 15px;
+                    width: 100%;
+                }
+                dd {
+                    margin-left: 150px;
+                }
+                dd:last-child {
+                    margin-left: 50px;
+                    font-size: 10px;
+                    line-height: 20px;
+                }
+            }
+            .left-text {
+                height: 650px;
+                h5 {
+                    margin: 0;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 25px;
+                }
+                .img-box {
+                    width: 100%;
+                    img {
+                        width: 55%;
+                        height: 90%;
+                    }
+                    .icon-box {
+                        p {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

@@ -14,11 +14,9 @@
 
 <body>
     <div id="portfolio">
-        <!-- <div class="start-p">
-        <textarea></textarea>
-    </div> -->
         <!-- php用 headerファイル -->
         <?php include('header-skip.php'); ?>
+        <?php include('bergermenu.php'); ?>
         <h2 class="topic">~ Portfolio ~</h2>
         <!-- 使用言語ごとのリスト -->
         <!-- <div class="list"></div> -->
@@ -112,6 +110,7 @@
     <script src="./assets/js/jquery.typetype.min.js"></script>
     <script src="./assets/js/anime.min.js"></script>
     <script src="./assets/js/start.js"></script>
+    <script src="./assets/js/humberger.js"></script>
 </body>
 
 </html>

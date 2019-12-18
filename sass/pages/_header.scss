@@ -162,8 +162,14 @@ header nav a {
     .berger-menu {
         display: block;
         width: 100%;
-        height: 360px;
+        height: 90%;
         background-color: whitesmoke;
+        a {
+            color: black;
+        }
+        a:active {
+            color: gray;
+        }
     }
 }
 

@@ -7,4 +7,12 @@
         <li class="hvr-underline-from-center"><a href="./portfolio.php">Portfolio</a></li>
         <li class="hvr-underline-from-center"><a href="./contact_form/index.php">Contact</a></li>
     </nav>
+
+    <div class="menu">
+        <div class="menu-trigger" href="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
 </header>

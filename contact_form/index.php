@@ -7,22 +7,15 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/animate.css">
     <link rel="stylesheet" href="../assets/css/hover.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
+    <!-- <link rel="stylesheet" href="./assets/css/header.css"> -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
 <body>
     <div id="contact">
-        <header>
-            <div class="header-left">
-                <h1><a href="../index-link.php">Shota Gishitomi</a></h1>
-            </div>
-            <nav>
-                <li class="hvr-underline-from-center"><a href="../about-link.php">About</a></li>
-                <li class="hvr-underline-from-center"><a href="../portfolio.php">Portfolio</a></li>
-                <li class="hvr-underline-from-center"><a href="./index.php">Contact</a></li>
-            </nav>
-        </header>
+        <?php include('./contact_header.php') ?>
+        <?php include('./contact_bergermenu.php') ?>
         <div class="container-wrapper">
             <div class="container-wrap">
                 <div class="container">
@@ -59,6 +52,8 @@
             </div>
         </div>
     </div>
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/humberger.js"></script>
 </body>
 
 </html>

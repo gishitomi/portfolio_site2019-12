@@ -247,19 +247,11 @@
                 text-shadow: none;
             }
         }
-        .berger-menu {
-            a {
-                color: black;
-            }
-            a:active {
-                color: gray;
-            }
-        }
     }
     @include media(iphone8) {
         .container-wrapper {
             background-image: url(../../assets/img/notebook-1280538_1920.jpg);
-            background-position: -745px 40px;
+            background-position: -600px 40px;
         }
         main {
             .text-box {

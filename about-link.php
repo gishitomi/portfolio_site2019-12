@@ -19,6 +19,7 @@
             <div class="container">
                 <!-- php用 headerファイル -->
                 <?php include('header-skip.php'); ?>
+                <?php include('bergermenu.php'); ?>
                 <h2>~About me~</h2>
                 <main>
                     <div class="left-text">
@@ -52,7 +53,7 @@
                             <dd>宜志富紹太 (ギシトミショウタ)</dd>
                             <dt>出身地 : </dt>
                             <dd>沖縄県</dd>
-                            <dt>生年月日</dt>
+                            <dt>生年月日 : </dt>
                             <dd>1996年 12月 15日</dd>
                             <dt>メールアドレス : </dt>
                             <dd>shotagishitomi@gmail.com</dd>
@@ -73,6 +74,7 @@
     <script src="./assets/js/jquery.typetype.min.js"></script>
     <script src="./assets/js/anime.min.js"></script>
     <script src="./assets/js/start.js"></script>
+    <script src="./assets/js/humberger.js"></script>
 </body>
 
 </html>

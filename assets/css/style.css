@@ -225,7 +225,7 @@ table {
 #about .left-text p {
   font-size: 15px;
   width: 80%;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
   line-height: 30px; }
 
 #about .img-box {
@@ -325,6 +325,75 @@ table {
   position: absolute;
   left: 100%;
   top: -20%; }
+
+@media only screen and (max-width: 1152px) {
+  #about .container {
+    overflow: auto; }
+  #about .left-text p {
+    margin-bottom: 20px; } }
+
+@media only screen and (max-width: 890px) {
+  #about .berger-menu {
+    height: 400px; }
+  #about .container h2 {
+    display: none; }
+  #about main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+            flex-direction: column-reverse; }
+  #about main .left-text, #about main .right-text {
+    width: 100%; }
+  #about main .right-text h3 {
+    font-size: 35px;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 6px solid #9e0606; }
+  #about main .right-text dl {
+    font-size: 20px; }
+  #about main .right-text dt {
+    margin-top: 40px;
+    font-weight: bold;
+    float: left; }
+  #about main .right-text dd {
+    margin-top: 40px;
+    margin-left: 200px; }
+  #about main .right-text dd:last-child {
+    line-height: 30px;
+    font-size: 13px; }
+  #about main .left-text h5 {
+    font-size: 35px;
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 6px solid #9e0606;
+    margin-bottom: 50px; } }
+
+@media only screen and (max-width: 375px) {
+  #about main .right-text dl {
+    font-size: 15px;
+    width: 100%; }
+  #about main .right-text dd {
+    margin-left: 150px; }
+  #about main .right-text dd:last-child {
+    margin-left: 50px;
+    font-size: 10px;
+    line-height: 20px; }
+  #about main .left-text {
+    height: 650px; }
+  #about main .left-text h5 {
+    margin: 0; }
+  #about main .left-text p {
+    font-size: 12px;
+    line-height: 25px; }
+  #about main .left-text .img-box {
+    width: 100%; }
+  #about main .left-text .img-box img {
+    width: 55%;
+    height: 90%; }
+  #about main .left-text .img-box .icon-box p {
+    font-size: 20px; } }
 
 .index section, .index section div {
   /* See it in slo-mo, you can change this */
@@ -604,10 +673,14 @@ header nav a {
   .berger-menu {
     display: block;
     width: 100%;
-    height: 360px;
-    background-color: whitesmoke; } }
+    height: 90%;
+    background-color: whitesmoke; }
+  .berger-menu a {
+    color: black; }
+  .berger-menu a:active {
+    color: gray; } }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 375px) {
   header .header-left {
     margin-left: 20px; }
   header h1 {
@@ -875,16 +948,12 @@ header nav a {
     text-shadow: 0px 4px 2px rgba(0, 0, 0, 0.32), 0px 1px 0px #0f0f0f, 0px 2px 0px #1b1c1f, 0px 3px 0px #212122; }
   .index article .btn-text-3d:active {
     top: 4px;
-    text-shadow: none; }
-  .index .berger-menu a {
-    color: black; }
-  .index .berger-menu a:active {
-    color: gray; } }
+    text-shadow: none; } }
 
-@media only screen and (max-width: 365px) {
+@media only screen and (max-width: 375px) {
   .index .container-wrapper {
     background-image: url(../../assets/img/notebook-1280538_1920.jpg);
-    background-position: -745px 40px; }
+    background-position: -600px 40px; }
   .index main .text-box {
     height: 70%; }
   .index main .text-box #message {

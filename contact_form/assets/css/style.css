@@ -10,7 +10,7 @@
     background-image: url("../img/computer-820281_1920.jpg");
     /* background-size: cover; */
     background-position: bottom;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     /* box-sizing: border-box; */
 }
@@ -28,7 +28,7 @@ form input {
     padding-left: 5px;
 }
 
-h1 {
+.container h1 {
     font-size: 60px;
     padding-top: 10%;
     /* font-family: cursive; */

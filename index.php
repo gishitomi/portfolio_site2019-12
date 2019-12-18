@@ -22,14 +22,7 @@
             <div class="container">
                 <!-- php用 headerファイル -->
                 <?php include('header.php'); ?>
-                <nav class="berger-menu">
-                    <ul>
-                    <li><a href="./index-link.php">Top</a></li>
-                        <li><a href="./about.php">About</a></li>
-                        <li><a href="./portfolio.php">Portfolio</a></li>
-                        <li><a href="./contact_form/index.php">Contact</a></li>
-                    </ul>
-                </nav>
+                <?php include('bergermenu.php'); ?>
                 <main>
                     <div class="text-box">
                         <p id="message">初めまして！宜志富紹太と申します。<br>私は現在大学に通いつつプログラミング、<br>Web制作等の勉強をしています。<br> 質問やご意見などございましたら
