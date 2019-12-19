@@ -1053,6 +1053,9 @@ header nav a {
   -webkit-box-pack: justify;
           justify-content: space-between; }
 
+#portfolio #page2 {
+  height: 2000px; }
+
 #portfolio .img-box img {
   width: 100%; }
 

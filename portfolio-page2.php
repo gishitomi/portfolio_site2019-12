@@ -14,13 +14,33 @@
 
 <body>
     <div id="portfolio">
+
         <!-- php用 headerファイル -->
         <?php include('header-skip.php'); ?>
         <?php include('bergermenu.php'); ?>
         <h2 class="topic">~ Portfolio ~</h2>
         <!-- 使用言語ごとのリスト -->
         <!-- <div class="list"></div> -->
-        <main>
+        <main id="page2">
+            <section>
+                <a href="https://about-javascript.netlify.com/" class="img-box">
+                    <img src="./assets/img/スクリーンショット 2019-12-08 19.45.50.png" alt="">
+                </a>
+                <div class="text">
+                    <br>
+                    <h5><a href="https://about-javascript.netlify.com/">テーマ : About Javascript</a></h5>
+                    <br>
+                    <p>使用言語 : HTML,CSS</p>
+                    <!-- <br>
+                <p></p> -->
+                    <br>
+                    <p>トップ画面をパララックスさせ、レイアウトはCSS Flexboxを使用。
+                        <br><br> GitHub : <a href="https://github.com/gishitomi/about_JavaScript">https://github.com/gishitomi/about_JavaScript</a>
+                        <br><br>
+                        URL : <a href="https://about-javascript.netlify.com/">https://about-javascript.netlify.com/</a>
+                    </p>
+                </div>
+            </section>
 
             <section>
                 <a href="https://elated-villani-576f93.netlify.com/" class="img-box">
@@ -41,6 +61,7 @@
                     </p>
                 </div>
             </section>
+
 
 
         </main>

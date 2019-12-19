@@ -21,27 +21,6 @@
         <!-- 使用言語ごとのリスト -->
         <!-- <div class="list"></div> -->
         <main>
-
-            <section>
-                <a href="https://about-javascript.netlify.com/" class="img-box">
-                    <img src="./assets/img/スクリーンショット 2019-12-08 19.45.50.png" alt="">
-                </a>
-                <div class="text">
-                    <br>
-                    <h5><a href="https://about-javascript.netlify.com/">テーマ : About Javascript</a></h5>
-                    <br>
-                    <p>使用言語 : HTML,CSS</p>
-                    <!-- <br>
-                <p></p> -->
-                    <br>
-                    <p>トップ画面をパララックスさせ、レイアウトはCSS Flexboxを使用。
-                        <br><br> GitHub : <a href="https://github.com/gishitomi/about_JavaScript">https://github.com/gishitomi/about_JavaScript</a>
-                        <br><br>
-                        URL : <a href="https://about-javascript.netlify.com/">https://about-javascript.netlify.com/</a>
-                    </p>
-                </div>
-            </section>
-
             <section>
                 <a href="https://okinawa-dialy.netlify.com/" class="img-box">
                     <img src="./assets/img/スクリーンショット 2019-12-08 20.00.03.png" alt="">
@@ -92,6 +71,26 @@
                         <br><br>GitHub : <a href="https://github.com/koji1218ai/teamAandS">https://github.com/koji1218ai/teamAandS</a>
                         <br><br>
                         URL : <a href="https://nifty-jepsen-3dc9da.netlify.com/">https://nifty-jepsen-3dc9da.netlify.com/</a>
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <a href="https://fav-gazo.herokuapp.com/" class="img-box">
+                    <img src="./assets/img/スクリーンショット 2019-12-20 0.51.42.png" alt="">
+                </a>
+                <div class="text">
+                    <br>
+                    <h5><a href="https://fav-gazo.herokuapp.com/">テーマ : 画像投稿サイト fav-gazo</a></h5>
+                    <br>
+                    <p>使用言語 : HTML,CSS / JavaScript / jquery / Sass / PHP / MySQL</p>
+                    <!-- <br>
+                <p></p> -->
+                    <br>
+                    <p>プログラミングスクール最後の課題として作成した画像投稿サイト。ログイン画面、画像を投稿する機能にはMySQLを使用。PHPによるDB接続、MyAQLからのデータの取り出しなどを中心に学ぶという目的のもとでサイトを作成。
+                        <br><br>GitHub : <a href="https://github.com/gishitomi/fav-gazo">https://github.com/gishitomi/fav-gazo</a>
+                        <br><br>
+                        URL : <a href="https://fav-gazo.herokuapp.com/">https://fav-gazo.herokuapp.com/</a>
                     </p>
                 </div>
             </section>
