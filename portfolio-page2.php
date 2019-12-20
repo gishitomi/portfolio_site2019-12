@@ -72,6 +72,7 @@
             <li><a href="#"><i class="fas fa-angle-double-right"></i></a></li>
 
         </ul>
+        <?php include('page-top.php') ?>
     </div>
 
 
@@ -80,6 +81,7 @@
     <script src="./assets/js/anime.min.js"></script>
     <script src="./assets/js/start.js"></script>
     <script src="./assets/js/humberger.js"></script>
+    <script src="./assets/js/page-top.js"></script>
 </body>
 
 </html>
