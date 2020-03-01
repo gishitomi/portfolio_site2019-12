@@ -818,7 +818,8 @@ header nav a {
   /* top: -10px; */
   width: 50%;
   height: 100%;
-  z-index: 100; }
+  z-index: 100;
+  font-family: cursive; }
 
 .index section {
   margin: 0 auto;
@@ -856,43 +857,6 @@ header nav a {
   width: 40%;
   left: 10%;
   height: 100%; }
-
-.index #izena {
-  width: 45%;
-  position: absolute;
-  left: 20%;
-  top: 100px;
-  display: none;
-  border-radius: 100%; }
-
-.index #sea {
-  width: 40%;
-  position: absolute;
-  /* left:400px; */
-  left: 65%;
-  top: 320px;
-  display: none; }
-
-.index #hibiscus {
-  position: absolute;
-  width: 50%;
-  top: -30px;
-  left: -20%;
-  display: none; }
-
-.index #aerial {
-  position: absolute;
-  width: 50%;
-  top: 300px;
-  left: -20%;
-  display: none; }
-
-.index #yuhi {
-  position: absolute;
-  width: 50%;
-  bottom: 450px;
-  right: -10%;
-  display: none; }
 
 .index main img {
   width: 100%; }

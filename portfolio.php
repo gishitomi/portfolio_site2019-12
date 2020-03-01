@@ -87,7 +87,7 @@
                     <!-- <br>
                 <p></p> -->
                     <br>
-                    <p>プログラミングスクール最後の課題として作成した画像投稿サイト。ログイン画面、画像を投稿する機能にはMySQLを使用。PHPによるDB接続、MyAQLからのデータの取り出しなどを中心に学ぶという目的のもとでサイトを作成。
+                    <p>プログラミングスクール最後の課題として作成した画像投稿サイト。ログイン画面、画像を投稿する機能にはMySQLを使用。PHPによるDB接続、MySQLからのデータの取り出しなどを中心に学ぶという目的のもとでサイトを作成。
                         <br><br>GitHub : <a href="https://github.com/gishitomi/fav-gazo">https://github.com/gishitomi/fav-gazo</a>
                         <br><br>
                         URL : <a href="https://fav-gazo.herokuapp.com/">https://fav-gazo.herokuapp.com/</a>
