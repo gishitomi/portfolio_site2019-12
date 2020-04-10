@@ -34,11 +34,11 @@
                         <div class="img-box">
                             <img src="./assets/img/IMG_3755 3.jpeg" alt="">
                             <div class="icon-box">
-                                <a href="">
+                                <a href="#">
                                     <i class="fab fa-facebook"></i>
                                 </a>
 
-                                <a href="">
+                                <a href="#">
                                     <i class="fab fa-instagram"></i>
                                 </a>
 
@@ -61,10 +61,10 @@
                             <dt>メールアドレス : </dt>
                             <dd>shotagishitomi@gmail.com</dd>
                             <dt>経歴 : </dt>
-                            <dd>琉球大学4年次。大学1年次の頃にC言語を学んだことがきっかけでプログラミングの存在を知り、その技術を用いてできるアプリ開発やWeb制作などのクリエイティブな仕事をすることに憧れを持つ。しかし、大学4年次に進級する手前で留年。留年中は大学の勉学だけでなく、プログラミングも本格的に勉強を始める。
-                                <br>現在は無事4年次に進級できWebエンジニアを目指し勉強中。
+                            <dd>琉球大学4年次。3ヶ月間プログラミングスクールに通い、フロントサイドの言語をメインに習得しました。
                             </dd>
                         </dl>
+                        <img src="./assets/img/F0737F63-7811-4FC4-BF10-5805FB0F1854_1_105_c.jpeg" alt="">
                     </div>
                     <!-- <div id="circle1"></div>
                     <div id="circle2"></div> -->

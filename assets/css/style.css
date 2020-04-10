@@ -257,10 +257,11 @@ table {
   justify-content: space-around; }
 
 #about .left-text p {
-  font-size: 15px;
+  font-size: 17px;
   width: 80%;
   margin-bottom: 50px;
-  line-height: 30px; }
+  line-height: 30px;
+  margin-top: 10px; }
 
 #about .img-box {
   display: -webkit-box;
@@ -342,6 +343,10 @@ table {
   line-height: 30px;
   font-size: 15px; }
 
+#about .right-text img {
+  width: 80%;
+  height: 40%; }
+
 #about #circle1 {
   width: 500px;
   height: 500px;
@@ -395,6 +400,9 @@ table {
   #about main .right-text dd:last-child {
     line-height: 30px;
     font-size: 13px; }
+  #about main .right-text img {
+    width: 100%;
+    height: 100%; }
   #about main .left-text h5 {
     font-size: 35px;
     width: 100%;
@@ -904,6 +912,9 @@ header nav a {
   font-size: 35px;
   margin-right: 10px; }
 
+.index .outie p {
+  font-family: serif; }
+
 .index .outie i:last-child {
   margin-right: 0; }
 
@@ -1035,7 +1046,9 @@ header nav a {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  height: 90px; }
+  height: 90px;
+  font-family: serif;
+  font-weight: 900; }
 
 #portfolio main {
   padding-top: 50px;
@@ -1052,7 +1065,7 @@ header nav a {
           justify-content: space-between; }
 
 #portfolio #page2 {
-  height: 2000px; }
+  height: 3000px; }
 
 #portfolio .img-box img {
   width: 100%; }

@@ -31,8 +31,6 @@
                     <h5><a href="https://about-javascript.netlify.com/">テーマ : About Javascript</a></h5>
                     <br>
                     <p>使用言語 : HTML,CSS</p>
-                    <!-- <br>
-                <p></p> -->
                     <br>
                     <p>トップ画面をパララックスさせ、レイアウトはCSS Flexboxを使用。
                         <br><br> GitHub : <a href="https://github.com/gishitomi/about_JavaScript">https://github.com/gishitomi/about_JavaScript</a>
@@ -51,13 +49,28 @@
                     <h5><a href="https://elated-villani-576f93.netlify.com/">テーマ : フロントエンドに役立つ知識</a></h5>
                     <br>
                     <p>使用言語 : HTML,CSS / JavaScript / jquery / Sass</p>
-                    <!-- <br>
-                <p></p> -->
                     <br>
                     <p>プログラミングスクールにて4人グループで行ったチーム開発。コード編集のやりとりはGitHubを使用した。Sassを学習することと、チーム内開発の練習の目的でこのサイトを作成。
                         <br><br>GitHub : <a href="https://github.com/naok-i-n-g/naoki">https://github.com/naok-i-n-g/naoki</a>
                         <br><br>
                         URL : <a href="https://elated-villani-576f93.netlify.com/">https://elated-villani-576f93.netlify.com/</a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <a href="https://rec-it-site.herokuapp.com/" class="img-box">
+                    <img src="./assets/img/スクリーンショット 2020-04-10 21.26.38.png" alt="">
+                </a>
+                <div class="text">
+                    <br>
+                    <h5><a href="https://rec-it-site.herokuapp.com/">テーマ : ITと経済のまとめサイト</a></h5>
+                    <br>
+                    <p>使用言語 : HTML,CSS / JavaSCript / PHP</p>
+                    <br>
+                    <p>RSSを用いて、他のwebサイトから情報を受け取り、表示させることを目標に制作。
+                        <br><br> GitHub : <a href="https://github.com/gishitomi/gishitomi">https://github.com/gishitomi/gishitomit</a>
+                        <br><br>
+                        URL : <a href="https://rec-it-site.herokuapp.com/">https://rec-it-site.herokuapp.com/</a>
                     </p>
                 </div>
             </section>
