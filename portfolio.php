@@ -27,14 +27,14 @@
                 </a>
                 <div class="text">
                     <br>
-                    <h5><a href="https://okinawa-dialy.netlify.com/">テーマ : 架空の沖縄紹介サイト</a></h5>
+                    <h5><a href="https://elated-goldberg-d9f9d2.netlify.com/">テーマ : 架空の沖縄紹介サイト</a></h5>
                     <br>
                     <p>使用言語 : HTML,CSS / Javascript / jquery</p>
                     <br>
                     <p>JavaScript(主にjquery)の学習、さらにプラグインの使い方を学ぶ目的で作成したサイト。
-                        <br><br> GitHub : <a href="https://github.com/gishitomi/JS-11-11">https://github.com/gishitomi/JS-11-11</a>
+                        <br><br> GitHub : <a href="https://github.com/gishitomi/js-2019-11-11">https://github.com/gishitomi/js-2019-11-11/a>
                         <br><br>
-                        URL : <a href="https://okinawa-dialy.netlify.com/">https://okinawa-dialy.netlify.com/</a>
+                        URL : <a href="https://elated-goldberg-d9f9d2.netlify.com/">https://elated-goldberg-d9f9d2.netlify.com/</a>
                     </p>
                 </div>
             </section>
