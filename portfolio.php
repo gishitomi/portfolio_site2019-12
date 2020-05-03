@@ -113,6 +113,7 @@
     <script src="./assets/js/start.js"></script>
     <script src="./assets/js/humberger.js"></script>
     <script src="./assets/js/page-top.js"></script>
+    <script src="./assets/js/portfolio.js"></script>
 </body>
 
 </html>

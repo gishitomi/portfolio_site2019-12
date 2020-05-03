@@ -57,6 +57,26 @@
                     </p>
                 </div>
             </section>
+
+            <section>
+                <a href="https://okinawa-visit.netlify.com/" class="img-box img-mouseover">
+                    <img src="./assets/img/okinawa_off.png" alt="">
+                </a>
+                <div class="text">
+                    <br>
+                    <h5><a href="https://okinawa-visit.netlify.com/">テーマ : 沖縄の架空観光サイト2</a></h5>
+                    <br>
+                    <p>使用言語 : HTML,CSS / JavaSCript(jquery)</p>
+                    <br>
+                    <p>沖縄の観光サイトを自分なりの言葉でまとめたサイト
+                        <br><br> GitHub : <a href="https://github.com/gishitomi/-2020">https://github.com/gishitomi/-2020</a>
+                        <br><br>
+                        URL : <a href="https://okinawa-visit.netlify.com/">https://okinawa-visit.netlify.com/</a>
+                    </p>
+                </div>
+            </section>
+
+
             <section>
                 <a href="https://rec-it-site.herokuapp.com/" class="img-box">
                     <img src="./assets/img/スクリーンショット 2020-04-10 21.26.38.png" alt="">
@@ -95,6 +115,7 @@
     <script src="./assets/js/start.js"></script>
     <script src="./assets/js/humberger.js"></script>
     <script src="./assets/js/page-top.js"></script>
+    <script src="./assets/js/portfolio.js"></script>
 </body>
 
 </html>
