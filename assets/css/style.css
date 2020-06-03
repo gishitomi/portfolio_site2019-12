@@ -994,6 +994,13 @@ header nav a {
   .index .container-wrapper {
     background-position: -510px 40px; } }
 
+#portfolio_2020_06 .topic {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: serif;
+  text-align: center;
+  margin: 50px; }
+
 #portfolio {
   /* サイトを始めて開く時 */
   /* サイトを始めて開く時終了 */

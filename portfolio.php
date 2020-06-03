@@ -84,8 +84,6 @@
                     <h5><a href="https://fav-gazo.herokuapp.com/">テーマ : 画像投稿サイト fav-gazo</a></h5>
                     <br>
                     <p>使用言語 : HTML,CSS / JavaScript / jquery / Sass / PHP / MySQL</p>
-                    <!-- <br>
-                <p></p> -->
                     <br>
                     <p>プログラミングスクール最後の課題として作成した画像投稿サイト。ログイン画面、画像を投稿する機能にはMySQLを使用。PHPによるDB接続、MySQLからのデータの取り出しなどを中心に学ぶという目的のもとでサイトを作成。
                         <br><br>GitHub : <a href="https://github.com/gishitomi/fav-gazo">https://github.com/gishitomi/fav-gazo</a>
