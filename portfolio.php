@@ -32,7 +32,7 @@
                     <p>使用言語 : HTML,CSS / Javascript / jquery</p>
                     <br>
                     <p>JavaScript(主にjquery)の学習、さらにプラグインの使い方を学ぶ目的で作成したサイト。
-                        <br><br> GitHub : <a href="https://github.com/gishitomi/js-2019-11-11">https://github.com/gishitomi/js-2019-11-11/a>
+                        <br><br> GitHub : <a href="https://github.com/gishitomi/js-2019-11-11">https://github.com/gishitomi/js-2019-11-11
                         <br><br>
                         URL : <a href="https://elated-goldberg-d9f9d2.netlify.com/">https://elated-goldberg-d9f9d2.netlify.com/</a>
                     </p>

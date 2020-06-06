@@ -1001,6 +1001,36 @@ header nav a {
   text-align: center;
   margin: 50px; }
 
+#portfolio_2020_06 #app {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px whitesmoke; }
+
+#portfolio_2020_06 #app .article {
+  width: 25%;
+  margin: 35px;
+  padding: 15px;
+  border: solid 2px #a3a3a3; }
+
+#portfolio_2020_06 #app .article .img-box img {
+  width: 100%; }
+
+.btn-flat-border {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  background-color: white; }
+
+.btn-flat-border:hover {
+  background: #67c5ff;
+  color: white; }
+
 #portfolio {
   /* サイトを始めて開く時 */
   /* サイトを始めて開く時終了 */

@@ -19,21 +19,20 @@
         <?php include('bergermenu.php'); ?>
         <h2 class="topic">~ Portfolio ~</h2>
         <main id="app">
-            <div v-for="list in lists">
-                <div>
+            <div v-for="list in lists" class="article">
                     <a v-bind:href="list.url" class="img-box">
                         <img v-bind:src="list.thumbnailSrc" alt="">
                     </a>
                     <h5><a v-bind:href="list.url">テーマ : {{list.title}}</a></h5>
                     <br>
-                    <p>使用言語 : </p>
+                    <p>使用言語 : {{list.useLanguage}}</p>
                     <br>
-                    <p>{{}}</p>
-                    <p>GitHub : {{}}<a href="">{{}}</a></p>
+                    <p>{{list.text}}</p>
+                    <p>GitHub : <a v-bind:href="list.urlGit">{{list.urlGit}}</a></p>
 
-                    <p>URL : <a href="">{{}}</a></p>
-
-                </div>
+                    <p>URL : <a v-bind:href="list.url">{{list.url}}</a></p>
+                    <a v-bind:href="list.urlGit" v-bind:class="linkBtn"><i class="fab fa-github"></i> GitHub</a>
+                    <a v-bind:class="linkBtn">URL</a>
             </div>
 
         </main>
