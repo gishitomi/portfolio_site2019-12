@@ -31,14 +31,10 @@
                     <p>GitHub : <a v-bind:href="list.urlGit">{{list.urlGit}}</a></p>
 
                     <p>URL : <a v-bind:href="list.url">{{list.url}}</a></p>
-                    <a v-bind:href="list.urlGit" v-bind:class="linkBtn"><i class="fab fa-github"></i> GitHub</a>
+                    <a v-bind:href="list.urlGit" v-bind:class="linkBtn githubColor"><i class="fab fa-github"></i> GitHub</a>
                     <a v-bind:class="linkBtn">URL</a>
             </div>
-
         </main>
-
-
-
     </div>
 
 

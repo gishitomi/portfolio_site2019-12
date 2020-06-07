@@ -1031,6 +1031,9 @@ header nav a {
   background: #67c5ff;
   color: white; }
 
+.github-btn-color {
+  background: gray; }
+
 #portfolio {
   /* サイトを始めて開く時 */
   /* サイトを始めて開く時終了 */
