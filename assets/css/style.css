@@ -1009,12 +1009,31 @@ header nav a {
 
 #portfolio_2020_06 #app .article {
   width: 25%;
+  height: 445px;
   margin: 35px;
   padding: 15px;
-  border: solid 2px #a3a3a3; }
+  border: solid 2px #a3a3a3;
+  font-family: serif; }
 
 #portfolio_2020_06 #app .article .img-box img {
   width: 100%; }
+
+#portfolio_2020_06 #app .article .theme-text {
+  color: black;
+  font-size: 20px; }
+
+#portfolio_2020_06 #app .article .language-text {
+  height: 33px; }
+
+#portfolio_2020_06 #app .article .main-text {
+  height: 100px; }
+
+#portfolio_2020_06 #app .article .btn-wrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  justify-content: space-around; }
 
 .btn-flat-border {
   display: inline-block;

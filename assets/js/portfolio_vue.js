@@ -15,7 +15,8 @@ var app = new Vue({
                 title: '架空の物件紹介サイト',
                 url: 'https://nifty-jepsen-3dc9da.netlify.com/',
                 useLanguage: 'HTML / CSS / Javascript / Bootstrap / jquery',
-                text: 'プログラミングスクールで2人1組で行ったチーム開発により作成したサイト。<br>コード編集のやりとりはGitHubを使用して行った。Topページと駐車場ページを担当。',
+                text: `プログラミングスクールで2人1組で行ったチーム開発により作成したサイト。
+                \nコード編集のやりとりはGitHubを使用して行った。Topページと駐車場ページを担当。`,
                 urlGit: 'https://github.com/koji1218ai/teamAandS',
                 thumbnailSrc: './assets/img/スクリーンショット 2019-12-08 22.35.56.png'
             },
@@ -51,7 +52,7 @@ var app = new Vue({
                 title: '沖縄の架空観光サイト2',
                 url: 'https://okinawa-visit.netlify.com/',
                 useLanguage: 'HTML / CSS / JavaSCript(jquery)',
-                text: '前回の沖縄サイトを改良して沖縄の観光サイトを自分なりの言葉でまとめたサイト',
+                text: '前回の沖縄サイトを改良して沖縄の観光サイトを自分なりの言葉でまとめたサイト。',
                 urlGit: 'https://github.com/gishitomi/-2020',
                 thumbnailSrc: './assets/img/okinawa_off.png'
             },
@@ -73,15 +74,15 @@ var app = new Vue({
                 urlGit: 'https://github.com/gishitomi/about_JavaScript',
                 thumbnailSrc: './assets/img/スクリーンショット 2019-12-08 19.45.50.png'
             },
-            // {
-            //     id: 9,
-            //     title: 'JavaScriptのみで作ったToDoアプリ',
-            //     url: '',
-            //     useLanguage: 'HTML / CSS / JavaScript',
-            //     text: 'ライブラリに頼り気味だったのでトレーニングとしてJavaScriptのみで定番のアプリであるToDoアプリを開発。',
-            //     urlGit: '',
-            //     thumbnailSrc: './assets/img/スクリーンショット 2020-06-03 19.20.39.png'
-            // }
+            {
+                id: 9,
+                title: 'JavaScriptのみで作ったToDoアプリ',
+                url: '',
+                useLanguage: 'HTML / CSS / JavaScript',
+                text: 'ライブラリに頼り気味だったのでトレーニングとしてJavaScriptのみで定番のアプリであるToDoアプリを開発。',
+                urlGit: '',
+                thumbnailSrc: './assets/img/スクリーンショット 2020-06-03 19.30.39.png'
+            }
         ],
         linkBtn: 'btn-flat-border',
         githubColor: 'github-btn-color'
