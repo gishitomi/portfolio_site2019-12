@@ -88,6 +88,7 @@ var app = new Vue({
                 title: 'Vue.jsによるSPA',
                 url: '',
                 useLanguage: 'HTML / CSS / JavaScript (Vue.js)',
+                text: 'Vue CLIを使用し、SPA化の練習として、現在の時刻を表示させる時計アプリ、ToDoアプリの開発を行った。',
                 urlGit: 'https://github.com/gishitomi/vueapp',
                 thumbnailSrc: './assets/img/スクリーンショット 2020-07-12 1.21.46.png',
             },
