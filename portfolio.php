@@ -33,7 +33,6 @@
                     <a v-bind:href="list.urlGit" v-bind:class="linkBtn, githubColor"><i class="fab fa-github"></i> GitHub</a>
                     <a v-bind:href="list.url" v-bind:class="linkBtn">URL</a>
                 </div>
-           
             </div>
         </main>
     </div>

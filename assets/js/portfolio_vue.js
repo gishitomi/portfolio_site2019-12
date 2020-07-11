@@ -82,6 +82,14 @@ var app = new Vue({
                 text: 'ライブラリに頼り気味だったのでトレーニングとしてJavaScriptのみで定番のアプリであるToDoアプリを開発。',
                 urlGit: '',
                 thumbnailSrc: './assets/img/スクリーンショット 2020-06-03 19.30.39.png'
+            },
+            {
+                id: 10,
+                title: 'Vue.jsによるSPA',
+                url: '',
+                useLanguage: 'HTML / CSS / JavaScript (Vue.js)',
+                urlGit: 'https://github.com/gishitomi/vueapp',
+                thumbnailSrc: './assets/img/スクリーンショット 2020-07-12 1.21.46.png',
             }
         ],
         linkBtn: 'btn-flat-border',
