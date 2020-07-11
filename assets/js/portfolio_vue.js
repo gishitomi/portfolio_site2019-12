@@ -90,7 +90,7 @@ var app = new Vue({
                 useLanguage: 'HTML / CSS / JavaScript (Vue.js)',
                 urlGit: 'https://github.com/gishitomi/vueapp',
                 thumbnailSrc: './assets/img/スクリーンショット 2020-07-12 1.21.46.png',
-            }
+            },
         ],
         linkBtn: 'btn-flat-border',
         githubColor: 'github-btn-color'
