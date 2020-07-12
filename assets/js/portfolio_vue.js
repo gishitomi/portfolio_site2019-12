@@ -77,16 +77,16 @@ var app = new Vue({
             {
                 id: 9,
                 title: 'JavaScriptのみで作ったToDoアプリ',
-                url: '',
+                url: 'https://hardcore-hoover-dbb7e9.netlify.app',
                 useLanguage: 'HTML / CSS / JavaScript',
                 text: 'ライブラリに頼り気味だったのでトレーニングとしてJavaScriptのみで定番のアプリであるToDoアプリを開発。',
-                urlGit: '',
+                urlGit: 'https://github.com/gishitomi/to_do_list_for_jquery',
                 thumbnailSrc: './assets/img/スクリーンショット 2020-06-03 19.30.39.png'
             },
             {
                 id: 10,
                 title: 'Vue.jsによるSPA',
-                url: '',
+                url: 'sg-vue-app.netlify.app',
                 useLanguage: 'HTML / CSS / JavaScript (Vue.js)',
                 text: 'Vue CLIを使用し、SPA化の練習として、現在の時刻を表示させる時計アプリ、ToDoアプリの開発を行った。',
                 urlGit: 'https://github.com/gishitomi/vueapp',
