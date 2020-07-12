@@ -50,7 +50,7 @@ var app = new Vue({
             {
                 id: 6,
                 title: '沖縄の架空観光サイト2',
-                url: 'https://okinawa-visit.netlify.com/',
+                url: 'https://okinawa-site-2020.herokuapp.com/',
                 useLanguage: 'HTML / CSS / JavaSCript(jquery)',
                 text: '前回の沖縄サイトを改良して沖縄の観光サイトを自分なりの言葉でまとめたサイト。',
                 urlGit: 'https://github.com/gishitomi/-2020',
