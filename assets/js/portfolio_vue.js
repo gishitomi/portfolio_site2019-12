@@ -86,7 +86,7 @@ var app = new Vue({
             {
                 id: 10,
                 title: 'Vue.jsによるSPA',
-                url: 'sg-vue-app.netlify.app',
+                url: 'https://vue-timer.herokuapp.com/',
                 useLanguage: 'HTML / CSS / JavaScript (Vue.js)',
                 text: 'Vue CLIを使用し、SPA化の練習として、現在の時刻を表示させる時計アプリ、ToDoアプリの開発を行った。',
                 urlGit: 'https://github.com/gishitomi/vueapp',
